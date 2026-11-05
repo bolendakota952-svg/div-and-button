@@ -1,0 +1,30 @@
+
+/* section */
+.projects-section{
+    background-color: #dbeafe;
+padding:30px;
+margin: 20px 0;
+border-radius: 2px solid #2563eb;
+border-radius: 10px;
+}
+
+/*container holding the boxes */
+.project-container { 
+    display: flex;
+gap: 20px;
+flex-wrap:wrap;
+}
+
+/* Individual div boxes*/
+.project-box{
+    background-color: blanchedalmond;
+padding: 20px;
+border: 2px solid #16a34a;
+border-radius: 8px;
+flex:1 1 180px;
+}
+
+/* headings inside each box */
+.project-box h3{
+    color:#166534;
+}
